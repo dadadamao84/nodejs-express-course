@@ -1,9 +1,7 @@
 const path = require('path');
 
-// current os info
-const { currentOs, sayHi, items } = require('./utils');
-console.log(currentOs.name, currentOs.release)
-sayHi(currentOs.username);
+//console.log(__dirname);
+//console.log(__filename);
 
 // path
 const filePath = path.join('/content', 'subfolder', 'test.txt');
